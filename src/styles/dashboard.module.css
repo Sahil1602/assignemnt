@@ -1,0 +1,13 @@
+.mainWrapper {
+    display: flex;
+}
+
+.graphWrapper {
+    width: 1000px;
+    height: 500px;
+}
+
+.controllerWrapper {
+    margin-left: 150px;
+    margin-top: 150px;
+}
