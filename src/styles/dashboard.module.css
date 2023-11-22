@@ -2,9 +2,39 @@
     display: flex;
 }
 
+@media(max-width: 920px){
+    .mainWrapper{
+        display: block;
+    }
+}
+
 .graphWrapper {
-    width: 1000px;
-    height: 500px;
+    width: 800px;
+    height: 400px;
+}
+
+@media(max-width: 1720px){
+    .graphWrapper{
+        width: 700px;
+    }
+}
+
+@media(max-width: 1380px){
+    .graphWrapper{
+        width: 600px;
+    }
+}
+
+@media(max-width: 1050px){
+    .graphWrapper{
+        width: 480px;
+    }
+}
+
+@media(max-width: 920px){
+    .graphWrapper{
+        width: 96%;
+    }
 }
 
 .controllerWrapper {

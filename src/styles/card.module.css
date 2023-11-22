@@ -41,6 +41,30 @@
     flex-wrap: wrap;
 }
 
+@media(max-width: 1720px){
+    .cardsWrapper{
+        width: 600px;
+    }
+}
+
+@media(max-width: 1720px){
+    .cardsWrapper{
+        width: 570px;
+    }
+}
+
+@media(max-width: 1240px){
+    .cardsWrapper{
+        width: 380px;
+    }
+}
+
+@media(max-width: 920px){
+    .cardsWrapper{
+        width: 96%;
+    }
+}
+
 .cardsMainWrap{
     width: fit-content;
     margin: 10px;
