@@ -35,7 +35,7 @@ function Companies() {
             <div className={styles.cardsWrapper}>
                 {
                     companyList.map(company => {
-                        return company ? <CompanyCard company={company} /> : null
+                        return company ? <CompanyCard key={company.name} company={company} /> : null
                     })
                 }
             </div>
